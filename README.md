@@ -25,3 +25,13 @@ Por fim o doador ja em contato com a instituição, acordam um valor ou uma quan
 #
 PS: A APLICAÇÃO É SIMPLES! APENAS TEM A FINALIDADE DE FAZER O CONTATO ENTRE QUEM PRECISA DE DOAÇÕES E QUEM DESEJA DOAR!
 NÃO ENVOLVENDO NENHUM LUCRO EM BENEFÍCIO PRÓPRIO.
+#
+#
+#
+#
+Front-end:
+Web -> ReactJS
+Mobile -> React Native
+
+Back-end:
+NodeJS
