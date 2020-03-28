@@ -30,4 +30,5 @@ NÃO ENVOLVENDO NENHUM LUCRO EM BENEFÍCIO PRÓPRIO.
 #
 #
 Front-end:Desenvolvido para WEB e MOBILE com ReactJS e React Native respectivamente.
+
 Back-end: Desenvolvido em NodeJS.
