@@ -76,7 +76,7 @@ form textarea {
     display: flex;
     align-items: center;
     margin-top: 40px;
-    color: #41414d;
+    color: #04d361;
     font-size: 18px;
     text-decoration: none;
     font-weight: 500;
@@ -88,5 +88,5 @@ form textarea {
 }
 
 .back-link:hover {
-    opacity: 0.8;
+    opacity: 0.5;
 }

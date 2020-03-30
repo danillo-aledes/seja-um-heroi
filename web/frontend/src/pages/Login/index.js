@@ -33,7 +33,7 @@ export default function Logon() {
 
                 <form onSubmit={handleLogin}>
                     <input
-                        placeholder="Token de Autenticação"
+                        placeholder="Token de Acesso"
                         value={id}
                         onChange={e => setId(e.target.value)}
                     />
