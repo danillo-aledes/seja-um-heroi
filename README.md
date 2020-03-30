@@ -1,7 +1,7 @@
 # Seja Um Herói 🦸
-Aplicação focada em ajudar pessoas que necessitavam de mantimentos na quarentena causada pela pandemia do vírus
+Aplicação focada em ajudar Instituições a arrecadarem mantimentos, para pessoas que necessitavam na quarentena causada pela 
 
-COVID-19 no ano de 2020.
+pandemia do vírus COVID-19 no ano de 2020.
 # WEB 🌐
 As instituições devem fazer um cadastro via WEB na aplicação, onde informará apenas os seus dados de contato, tais como:
 
