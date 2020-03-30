@@ -11,7 +11,7 @@ do app mobile. Também cada instituição/ong cadastrada irá receber um token q
 
 instituição/ong irá cadastrar também seus casos, onde será informado um título, uma descrição do caso, e um valor sugerido
 
-para ajudar.
+para doar.
 
 # MOBILE 📱
 O app mobile por sua vez, tem a finalidade dos usuários/doadores visualizarem instituições/ongs e seus casos disponíveis 
