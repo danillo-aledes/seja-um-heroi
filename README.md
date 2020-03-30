@@ -1,5 +1,5 @@
 # Seja Um Herói 🦸
-Aplicação focada em ajudar as pessoas que necessitavam de mantimentos na quarentena causada pela pandemia do vírus
+Aplicação focada em ajudar pessoas que necessitavam de mantimentos na quarentena causada pela pandemia do vírus
 
 COVID-19 no ano de 2020.
 # WEB 🌐
