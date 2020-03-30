@@ -1,6 +1,6 @@
 # seja-um-heroi
 #
-#
+# WEB
 Aplicação focada em ajudar as pessoas que necessitavam de mantimentos na quarentena causada pela pandemia do vírus
 
 COVID-19 no ano de 2020.
@@ -15,7 +15,7 @@ instituição/ong irá cadastrar também seus casos, onde será informado um tí
 
 para ajudar.
 #
-#
+# MOBILE
 O app mobile por sua vez, tem a finalidade dos usuários/doadores visualizarem instituições/ongs e seus casos disponíveis 
 
 para ajuda. Assim será possível o doador entrar em contato com as mesmas, através de mensagens por whatsapp ou email.
@@ -29,7 +29,7 @@ NÃO ENVOLVENDO NENHUM LUCRO EM BENEFÍCIO PRÓPRIO.
 #
 #
 #
-#
+# Tecnologias Utilizadas
 Front-end: Desenvolvido para WEB e MOBILE com ReactJS e React Native respectivamente.
 
 Back-end: Desenvolvido em NodeJS.
