@@ -1,9 +1,8 @@
 # Seja Um Herói 🦸
-# WEB 🌐
 Aplicação focada em ajudar as pessoas que necessitavam de mantimentos na quarentena causada pela pandemia do vírus
 
 COVID-19 no ano de 2020.
-
+# WEB 🌐
 As instituições devem fazer um cadastro via WEB na aplicação, onde informará apenas os seus dados de contato, tais como:
 
 Nome, Email, WhatsApp, Cidade e Estado. Uma vez cadastrada na aplicação seus dados estaram visíveis para todos os usuários
