@@ -16,7 +16,7 @@ para doar.
 # MOBILE 📱
 O app mobile por sua vez, tem a finalidade dos usuários/doadores visualizarem instituições/ongs e seus casos disponíveis 
 
-para ajuda. Assim será possível o doador entrar em contato com as mesmas, através de mensagens por whatsapp ou email.
+para doação. Assim será possível o doador entrar em contato com as mesmas, através de mensagens por whatsapp ou email.
 
 Por fim o doador ja em contato com a instituição, acordam um valor ou uma quantia de mantimentos que será doado.
 
