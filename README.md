@@ -26,6 +26,6 @@ NÃO ENVOLVENDO NENHUM LUCRO EM BENEFÍCIO PRÓPRIO.
 
 
 # Tecnologias Utilizadas 💻
-Front-end: Desenvolvido para WEB e MOBILE com ReactJS e React Native respectivamente.
+Front-end: Desenvolvido para WEB e MOBILE com ReactJS e React Native respectivamente. Onde no Mobile foi utilizado EXPO.
 
 Back-end: Desenvolvido em NodeJS.
