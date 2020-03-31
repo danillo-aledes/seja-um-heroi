@@ -68,7 +68,7 @@ export default function Register() {
                     />
 
                     <input
-                        placeholder="Whatsapp"
+                        placeholder="Whatsapp com DDD"
                         value={whatsapp}
                         onChange={e => setWhatsapp(e.target.value)}
                     />
