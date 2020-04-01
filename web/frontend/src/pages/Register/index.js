@@ -5,9 +5,11 @@ import { FiArrowLeft } from 'react-icons/fi';
 import api from '../../services/api';
 
 import './styles.css';
-import logoImg from '../../assets/logo.svg'
+import logoImg from '../../assets/logo.png'
 
 export default function Register() {
+    const [user, setUser] = useState('');
+    const [password, setPassword] = useState('');
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [whatsapp, setWhatsapp] = useState('');
@@ -20,6 +22,8 @@ export default function Register() {
         e.preventDefault();
 
         const data = {
+            user,
+            password,
             name,
             email,
             whatsapp,
@@ -28,9 +32,9 @@ export default function Register() {
         };
 
         try {
-            const response = await api.post('institutions', data);
+            await api.post('institutions', data);
 
-            alert(`Seu TOKEN de acesso: ${response.data.id}`);
+            alert('Instituição cadastrada com sucesso!');
 
             history.push('/');
         } catch (err) {
@@ -54,6 +58,18 @@ export default function Register() {
                 </section>
 
                 <form onSubmit={handleRegister}>
+                    <input
+                        placeholder="Usuário"
+                        value={user}
+                        onChange={e => setUser(e.target.value)}
+                    />
+
+                    <input
+                        placeholder="Senha"
+                        value={password}
+                        onChange={e => setPassword(e.target.value)}
+                    />
+
                     <input
                         placeholder="Nome da Instituição"
                         value={name}
