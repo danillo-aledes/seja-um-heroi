@@ -5,19 +5,21 @@ import { FiLogIn } from 'react-icons/fi';
 import api from '../../services/api';
 
 import './styles.css'
-import logoImg from '../../assets/logo.svg'
+import logoImg from '../../assets/logo.png'
+import heroImg from '../../assets/hero.png'
 
 export default function Logon() {
-    const [id, setId] = useState('');
+    const [user, setUser] = useState('');
+    const [password, setPassword] = useState('');
     const history = useHistory();
 
     async function handleLogin(e) {
         e.preventDefault();
 
         try {
-            const response = await api.post('sessions', { id });
+            const response = await api.post('sessions', { user, password });
 
-            localStorage.setItem('instId', id);
+            localStorage.setItem('instId', response.data.id);
             localStorage.setItem('instName', response.data.name);
 
             history.push('/profile');
@@ -33,10 +35,17 @@ export default function Logon() {
 
                 <form onSubmit={handleLogin}>
                     <input
-                        placeholder="Token de Acesso"
-                        value={id}
-                        onChange={e => setId(e.target.value)}
+                        placeholder="Usuário"
+                        value={user}
+                        onChange={e => setUser(e.target.value)}
                     />
+
+                    <input
+                        placeholder="Senha"
+                        value={password}
+                        onChange={e => setPassword(e.target.value)}
+                    />
+
                     <button className="buttonLogin" type="submit">Entrar</button>
 
                     <Link to="/register" className="back-link" >
@@ -45,6 +54,8 @@ export default function Logon() {
                     </Link>
                 </form>
             </section>
+
+            <img src={heroImg} alt="Hero" />
         </div>
     );
 }

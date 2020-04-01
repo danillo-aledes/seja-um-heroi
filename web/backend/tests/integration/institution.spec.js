@@ -16,6 +16,8 @@ describe('INST', () => {
         const response = await request(app)
             .post('/institutions')
             .send({
+                user: "usertest",
+                password: "123",
                 name: "Institution Test",
                 email: "contact@contact.com",
                 whatsapp: "12345678910",

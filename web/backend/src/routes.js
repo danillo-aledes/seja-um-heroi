@@ -11,9 +11,12 @@ const routes = express.Router();
 // LOGIn
 routes.post('/sessions', celebrate({
     [Segments.BODY]: Joi.object().keys({
-        id: Joi.string().required()
+        user: Joi.string().required(),
+        password: Joi.string().required()
     })
 }), SessionController.create);
+
+// -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
 // PROFILE
 routes.get('/profile', celebrate({
@@ -22,11 +25,15 @@ routes.get('/profile', celebrate({
     }).unknown()
 }), ProfileController.index);
 
+// -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
 // INSTITUTIONS
 routes.get('/institutions', InstitutionController.index);
 
 routes.post('/institutions', celebrate({
     [Segments.BODY]: Joi.object().keys({
+        user: Joi.string().required(),
+        password: Joi.string().required(),
         name: Joi.string().required(),
         email: Joi.string().required().email(),
         whatsapp: Joi.string().required().min(11).max(13),
@@ -34,6 +41,14 @@ routes.post('/institutions', celebrate({
         uf: Joi.string().required().length(2),
     })
 }), InstitutionController.create);
+
+// routes.delete('/institutions/:id', celebrate({
+//     [Segments.PARAMS]: Joi.object().keys({
+//         id: Joi.number().required()
+//     })
+// }), InstitutionController.delete);
+
+// -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
 // CASES
 routes.get('/cases', celebrate({

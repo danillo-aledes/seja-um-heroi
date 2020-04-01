@@ -9,12 +9,14 @@ module.exports = {
     },
 
     async create (request, response) {
-        const { name, email, whatsapp, city, uf } = request.body;
+        const { user, password, name, email, whatsapp, city, uf } = request.body;
 
         const id = generateuniqueId();
 
         await connection('institutions').insert({
             id,
+            user,
+            password,
             name,
             email,
             whatsapp,
